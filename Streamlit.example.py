@@ -60,7 +60,7 @@ def get_crypto_news(coin='bitcoin'):
         Returns:
             list: A list of dictionaries containing the latest news items, including titles, sources, dates, and URLs.
         """
-    CryptoPanic_api = "e23adb78e5e55980f5d3ce7a4955f3b048b2c19a"
+    CryptoPanic_api = "write your own"
     url = f"https://cryptopanic.com/api/v1/posts/?auth_token={CryptoPanic_api}&currencies={CRYPTO_LIST[coin]}"
     try:
         response = requests.get(url)
